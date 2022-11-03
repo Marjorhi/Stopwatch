@@ -70,8 +70,9 @@ window.onload = function() {
         clearInterval(Interval);
         Interval = setInterval(startTimer, 10);
         $("#animateCircle").addClass("addAnimation");
-        $("#animateCircle.addAnimation").css("animation-play-state", "running")
+        $("#animateCircle.addAnimation").css("animation-play-state", "running");
     }
+    
 
     // Button to stop timer
     buttonStop.onclick = function() {
