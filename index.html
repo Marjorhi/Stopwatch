@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <title>Stopwatch</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
 
 </head>
@@ -10,8 +11,8 @@
         <div id="timer">
 
             <svg width="260" height="260">
-                <circle class="defaultCircle" cx="125" cy="125" r="120" stroke="#635bfc" stroke-width="10" fill="none" stroke-linecap="round" />
-                <circle class="animateCircle" cx="125" cy="125" r="120" stroke="#635bfc" stroke-width="10" fill="none" stroke-linecap="round" />
+                <circle class="defaultCircle" cx="125" cy="125" r="120" stroke="#fdcbf1" stroke-width="10" fill="none" stroke-linecap="round" />
+                <circle class="animateCircle" cx="125" cy="125" r="120" stroke="#fdcbf1" stroke-width="10" fill="none" stroke-linecap="round" />
 
             </svg>
 
@@ -22,9 +23,10 @@
         </div>
         <p>Time starts now</p>
             <div class="option">
-                <a id="play" onclick="playFunc();" href="javascript:void(0)"><i class="fa fa-play"></i>Play</a>
+                <a id="play" onclick="playFunc();" href="javascript:void(0)"><i class="fa fa-play"></i> Play</a>
                 <a id="stop" onclick="stopFunc();" href="javascript:void(0)"><i class="fa fa-stop"></i> Stop</a>
-                <a id="reset" onclick="resetFunc();" href="javascript:void(0)"><i class="fa fa-undo"></i>Reset</a>
+                <a id="reset" onclick="resetFunc();" href="javascript:void(0)"><i class="fa fa-undo"></i> Reset</a>
             </div>
         </div>
+        <script src="script.js"
 </body>
